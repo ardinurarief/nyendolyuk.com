@@ -1,10 +1,15 @@
-function openWhatsApp(btnElement) {
-  const card = btnElement.closest(".menu-card");
-  const menuName = card.getAttribute("data-menu-name");
-  const price = card.getAttribute("data-menu-price");
+function kirimPesanWA(element) {
+  // 1. Ambil parent card dari tombol yang diklik
+  const card = element.closest('.menu-card');
 
-  const phoneNumber = "6281366616094";
+  // 2. Ambil data spesifik dari kartu tersebut
+  const menuName = card.getAttribute('data-menu-name');
+  const price = card.getAttribute('data-menu-price');
 
+  // 3. Nomor WhatsApp Tujuan
+  const phoneNumber = '6281366616094';
+
+  // 4. Format Pesan
   const message = `Hallo, Saya Ingin Pesan ${menuName}!
 Nama:
 No-Telepon:
@@ -13,8 +18,7 @@ Metode Pembayaran: Cash/ Transfer Via Dana(081366616094)
 
 Harga: Rp ${price}`;
 
-  const encodedMessage = encodeURIComponent(message);
-  const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-
-  window.open(whatsappURL, "_blank");
+  // 5. Buka WhatsApp
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+  window.open(url, '_blank');
 }
