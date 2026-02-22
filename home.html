@@ -46,10 +46,7 @@
           </p>
           <div class="hero-buttons" data-aos="zoom-in" data-aos-delay="700">
             <a href="#menu" class="btn-primary">Lihat Menu</a>
-            <a
-              href="https://wa.me/6281234567890?text=Halo%2C%20saya%20mau%20pesan%20cendol..."
-              class="btn-secondary"
-              target="_blank"
+            <a href="#menu" class="btn-secondary" target="_blank"
               >Pesan Sekarang</a
             >
           </div>
@@ -61,10 +58,10 @@
     <section id="about" class="about" data-aos="fade-up">
       <div class="container">
         <div class="section-header" data-aos="fade-down">
-          <h2 class="section-title" data-aos="fade-down" data-aos-delay="500">
+          <h2 class="section-title" data-aos="fade-up" data-aos-delay="500">
             Tentang NyendolYuk!
           </h2>
-          <div class="section-divider" data-aos="fade-down" data-aos-delay="500"></div>
+          <div class="section-divider"></div>
         </div>
         <div class="about-wrapper">
           <div
@@ -93,8 +90,11 @@
                   >NyendolYuk!</strong
                 >
                 dari suasana adem di Lampung, cendol ini hadir sejak 2020 buat
-                nemenin momen chill kamu. Prinsipnya:<span class="highlight-text">flavor asli, harga nggak bikin pusing, vibes ramah kayak
-                  nongkrong sama kawan.</span>
+                nemenin momen chill kamu. Prinsipnya:
+                <span class="highlight-text"
+                  >flavor asli, harga nggak bikin pusing, vibes ramah kayak
+                  nongkrong sama kawan.</span
+                >
               </p>
             </div>
             <div class="about-card">
@@ -162,7 +162,13 @@
         </div>
         <div class="menu-grid">
           <!-- Menu Item 1 -->
-          <div class="menu-card" data-aos="flip-left" data-aos-delay="100">
+          <div
+            class="menu-card"
+            data-aos="flip-left"
+            data-aos-delay="100"
+            data-menu-name="Cendol Original"
+            data-menu-price="8.000"
+          >
             <div class="menu-image">
               <img
                 src="https://imgx.sonora.id/crop/0x0:0x0/x/photo/2023/03/13/640d6eac51567jpg-20230313082338.jpg"
@@ -174,11 +180,27 @@
               <h3 class="menu-name">Cendol Original</h3>
               <p class="menu-desc">Cendol hijau, santan, gula merah, es batu</p>
               <p class="menu-price">Rp 8.000</p>
+
+              <!-- Tombol WhatsApp -->
+              <a href="#" class="btn-whatsapp" onclick="openWhatsApp(this)">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/4423/4423697.png"
+                  alt="WhatsApp"
+                  class="btn-icon"
+                />
+                Pesan via WhatsApp
+              </a>
             </div>
           </div>
 
           <!-- Menu Item 2 -->
-          <div class="menu-card" data-aos="flip-left" data-aos-delay="200">
+          <div
+            class="menu-card"
+            data-aos="flip-left"
+            data-aos-delay="100"
+            data-menu-name="Cendol Original"
+            data-menu-price="8.000"
+          >
             <div class="menu-image">
               <img
                 src="https://d12man5gwydfvl.cloudfront.net/wp-content/uploads/2019/04/cendol-in-text-image-min.jpg"
@@ -190,11 +212,27 @@
               <h3 class="menu-name">Cendol Campur</h3>
               <p class="menu-desc">+ tape ketan, kacang merah, nangka</p>
               <p class="menu-price">Rp 12.000</p>
+
+              <!-- Tombol WhatsApp -->
+              <a href="#" class="btn-whatsapp" onclick="openWhatsApp(this)">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/4423/4423697.png"
+                  alt="WhatsApp"
+                  class="btn-icon"
+                />
+                Pesan via WhatsApp
+              </a>
             </div>
           </div>
 
           <!-- Menu Item 3 -->
-          <div class="menu-card" data-aos="flip-left" data-aos-delay="300">
+          <div
+            class="menu-card"
+            data-aos="flip-left"
+            data-aos-delay="100"
+            data-menu-name="Cendol Original"
+            data-menu-price="8.000"
+          >
             <div class="menu-image">
               <img
                 src="https://cnc-magazine.oramiland.com/parenting/images/es-cincau.width-800.format-webp.webp"
@@ -206,6 +244,16 @@
               <h3 class="menu-name">Cendol Cincau Hitam</h3>
               <p class="menu-desc">+ cincau hitam, double segar!</p>
               <p class="menu-price">Rp 10.000</p>
+
+              <!-- Tombol WhatsApp -->
+              <a href="#" class="btn-whatsapp" onclick="openWhatsApp(this)">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/4423/4423697.png"
+                  alt="WhatsApp"
+                  class="btn-icon"
+                />
+                Pesan via WhatsApp
+              </a>
             </div>
           </div>
         </div>
@@ -254,18 +302,6 @@
             >
             Gratis ongkir kalo kirim ke rumah kamu
           </p>
-          <a
-            href="https://wa.me/6281366616094?text=I%20Love%20You%20..."
-            class="btn-pesan"
-            target="_blank"
-          >
-            <img
-              src="https://cdn.simpleicons.org/whatsapp/ffffff"
-              alt="WhatsApp"
-              class="btn-icon"
-            />
-            <span class="btn-text">Pesan via WhatsApp</span>
-          </a>
         </div>
       </div>
     </section>
@@ -371,7 +407,7 @@
             <div class="social-links">
               <!-- Instagram Icon -->
               <a
-                href="https://instagram.com/cendol_ayah"
+                href="#"
                 class="social-link"
                 target="_blank"
               >
@@ -381,9 +417,9 @@
                   class="social-icon"
                 />
               </a>
-              <!-- Facebook Icon -->
+              <!-- Tiktok Icon -->
               <a
-                href="https://facebook.com/cendolayah"
+                href="#"
                 class="social-link"
                 target="_blank"
               >
@@ -395,7 +431,7 @@
               </a>
               <!-- WhatsApp Icon (Bonus) -->
               <a
-                href="https://wa.me/6281234567890"
+                href="https://wa.me/6281366616094"
                 class="social-link"
                 target="_blank"
               >
@@ -410,7 +446,7 @@
         </div>
         <div class="footer-bottom">
           <p class="footer-copyright">
-            &copy; 2026 CendolYuk!. All rights reserved.
+            &copy; 2026 NyendolYuk!. All rights reserved.
           </p>
         </div>
       </div>
@@ -453,10 +489,6 @@
         once: true,
       });
     </script>
+    <script src="assets/main.js"></script>
   </body>
 </html>
-
-
-
-
-
