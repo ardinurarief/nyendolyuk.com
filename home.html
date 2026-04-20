@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NyendolYuk!</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/desain.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header / Navigation Bar -->
+    <header class="navbar">
+      <div class="container">
+        <div class="logo">
+          <img src="assets/logo.png" alt="CendolYuk!" class="logo-icon" />
+          <span class="logo-text">NyendolYuk!</span>
+        </div>
+        <div class="nav-toggle" id="navToggle">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </div>
+        <nav class="nav-menu" id="navMenu">
+          <a href="#home" class="nav-link active">Beranda</a>
+          <a href="#menu" class="nav-link">Menu</a>
+          <a href="#about" class="nav-link">Tentang</a>
+          <a href="#order" class="nav-link">Pesan</a>
+        </nav>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="hero"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+    >
+      <div class="container">
+        <div class="hero-content" data-aos="zoom-in" data-aos-delay="300">
+          <h1 class="hero-title" data-aos="fade-up" data-aos-delay="500">
+            Nyendolnya Yuk!
+          </h1>
+          <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="600">
+            Chill Your Day
+          </p>
+          <div class="hero-buttons" data-aos="zoom-in" data-aos-delay="700">
+            <a href="#menu" class="btn-primary">Lihat Menu</a>
+            <a href="#menu" class="btn-secondary" target="_blank"
+              >Pesan Sekarang</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about" data-aos="fade-up">
+      <div class="container">
+        <div class="section-header" data-aos="fade-down">
+          <h2 class="section-title" data-aos="fade-up" data-aos-delay="500">
+            Tentang NyendolYuk!
+          </h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="about-wrapper">
+          <div
+            class="about-image"
+            data-aos="fade-right"
+            data-aos-duration="800"
+          >
+            <div class="about-image-placeholder">
+              <img
+                src="assets/cendol.png"
+                alt="CendolBro Segar"
+                class="about-img"
+              />
+            </div>
+          </div>
+          <div
+            class="about-content"
+            data-aos="fade-left"
+            data-aos-duration="800"
+          >
+            <div class="about-card">
+              <h3 class="about-card-title">Kisah Kami</h3>
+              <p class="about-card-text">
+                <strong
+                  style="font-family: Quicksand, sans-serif; color: #16a34a"
+                  >NyendolYuk!</strong
+                >
+                dari suasana adem di Lampung, cendol ini hadir sejak 2020 buat
+                nemenin momen chill kamu. Prinsipnya:
+                <span class="highlight-text"
+                  >flavor asli, harga nggak bikin pusing, vibes ramah kayak
+                  nongkrong sama kawan.</span
+                >
+              </p>
+            </div>
+            <div class="about-card">
+              <h3 class="about-card-title">Komitmen Kami</h3>
+              <p class="about-card-text">
+                Setiap pagi, cendol dibuat fresh dengan bahan-bahan pilihan:
+                <span class="highlight-text"
+                  >gula merah asli, santan segar, dan es batu bersih.</span
+                >Kini, kami ingin membawa kesegaran ini ke lebih banyak orang
+                termasuk kamu!
+              </p>
+            </div>
+            <div class="about-features">
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/128/10021/10021428.png"
+                    alt="Bahan Alami"
+                    class="feature-img"
+                  />
+                </div>
+                <div class="feature-text">
+                  <h4 class="feature-title">Bahan Alami</h4>
+                  <p class="feature-desc">Tanpa pengawet</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/128/18238/18238776.png"
+                    alt="Fresh Daily"
+                    class="feature-img"
+                  />
+                </div>
+                <div class="feature-text">
+                  <h4 class="feature-title">Fresh Daily</h4>
+                  <p class="feature-desc">Dibuat setiap pagi</p>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/128/15453/15453501.png"
+                    alt="Gratis Ongkir"
+                    class="feature-img"
+                  />
+                </div>
+                <div class="feature-text">
+                  <h4 class="feature-title">Gratis Ongkir</h4>
+                  <p class="feature-desc">Kalo di rumah kamu</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu" data-aos="fade-up">
+      <div class="container">
+        <div class="section-header" data-aos="fade-down">
+          <h2 class="section-title">Menu Kami</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="menu-grid">
+          <!-- Menu Item 1: Cendol Original -->
+          <div
+            class="menu-card"
+            data-aos="flip-left"
+            data-aos-delay="100"
+            data-menu-name="Cendol Original"
+            data-menu-price="8000"
+          >
+            <div class="menu-image">
+              <img
+                src="https://imgx.sonora.id/crop/0x0:0x0/x/photo/2023/03/13/640d6eac51567jpg-20230313082338.jpg"
+                alt="Cendol Original"
+                class="menu-img"
+              />
+            </div>
+            <div class="menu-info">
+              <h3 class="menu-name">Cendol Original</h3>
+              <p class="menu-desc">Cendol hijau, santan, gula merah, es batu</p>
+              <p class="menu-price">Rp 8.000</p>
+              <!-- Tombol -->
+              <a href="#" class="btn-whatsapp">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/4423/4423697.png"
+                  alt="WA"
+                  class="btn-icon"
+                />
+                Pesan via WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Menu Item 2: Cendol Campur -->
+          <div
+            class="menu-card"
+            data-aos="flip-left"
+            data-aos-delay="200"
+            data-menu-name="Cendol Campur"
+            data-menu-price="12000"
+          >
+            <div class="menu-image">
+              <img
+                src="https://d12man5gwydfvl.cloudfront.net/wp-content/uploads/2019/04/cendol-in-text-image-min.jpg"
+                alt="Cendol Campur"
+                class="menu-img"
+              />
+            </div>
+            <div class="menu-info">
+              <h3 class="menu-name">Cendol Campur</h3>
+              <p class="menu-desc">+ tape ketan, kacang merah, nangka</p>
+              <p class="menu-price">Rp 12.000</p>
+              <!-- Tombol -->
+              <a href="#" class="btn-whatsapp">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/4423/4423697.png"
+                  alt="WA"
+                  class="btn-icon"
+                />
+                Pesan via WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Menu Item 3: Cendol Cincau Hitam -->
+          <div
+            class="menu-card"
+            data-aos="flip-left"
+            data-aos-delay="300"
+            data-menu-name="Cendol Cincau Hitam"
+            data-menu-price="10000"
+          >
+            <div class="menu-image">
+              <img
+                src="https://cnc-magazine.oramiland.com/parenting/images/es-cincau.width-800.format-webp.webp"
+                alt="Cendol Cincau Hitam"
+                class="menu-img"
+              />
+            </div>
+            <div class="menu-info">
+              <h3 class="menu-name">Cendol Cincau Hitam</h3>
+              <p class="menu-desc">+ cincau hitam, double segar!</p>
+              <p class="menu-price">Rp 10.000</p>
+              <!-- Tombol -->
+              <a href="#" class="btn-whatsapp">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/4423/4423697.png"
+                  alt="WA"
+                  class="btn-icon"
+                />
+                Pesan via WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="order" data-aos="fade-up">
+      <div class="container">
+        <div class="section-header" data-aos="fade-down">
+          <h2 class="section-title">Cara Pemesanan</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="order-steps">
+          <div class="step-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="step-number">1</div>
+            <h3 class="step-title">Pilih Varian</h3>
+            <p class="step-desc">Pilih cendol favoritmu dari menu di atas</p>
+          </div>
+          <div class="step-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="step-number">2</div>
+            <h3 class="step-title">Hubungi WhatsApp</h3>
+            <p class="step-desc">
+              Klik tombol "Pesan Sekarang" atau chat langsung
+            </p>
+          </div>
+          <div class="step-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="step-number">3</div>
+            <h3 class="step-title">Konfirmasi Pesanan</h3>
+            <p class="step-desc">Berikan alamat lengkap dan jumlah pesanan</p>
+          </div>
+          <div class="step-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="step-number">4</div>
+            <h3 class="step-title">Nikmati di Rumah</h3>
+            <p class="step-desc">Cendol segar akan diantar ke rumahmu!</p>
+          </div>
+        </div>
+        <div class="order-cta" data-aos="fade-up">
+          <p class="order-info">
+            <strong style="font-family: Quicksand, sans-serif; color: #16a34a"
+              >Jam Operasional:</strong
+            >
+            Setiap hari, 09.00 - 17.00 WIB<br />
+            <strong style="font-family: Quicksand, sans-serif; color: #16a34a"
+              >Area Pengiriman:</strong
+            >
+            Gratis ongkir kalo kirim ke rumah kamu
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" data-aos="fade-up">
+      <div class="container">
+        <div class="section-header-testimonials">
+          <h2 class="section-title-testimonials">Testimoni Pelanggan</h2>
+          <div class="section-divider-testimonials"></div>
+        </div>
+        <div class="testimonial-grid">
+          <!-- Testimoni 1 -->
+          <div class="testimonial" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-content">
+              <p class="testimonial-text">
+                "Cendolnya juara banget! Gula merahnya legit, esnya pas nggak
+                kebanyakan. Anak-anak sampe minta dibelikan tiap weekend.
+                Makasih NyendolYuk!"
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">S</div>
+              <div class="author-info">
+                <h4 class="author-name">Ibu Sinta</h4>
+                <p class="author-location">Pelanggan Tetap sejak 2022</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimoni 2 -->
+          <div class="testimonial" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-content">
+              <p class="testimonial-text">
+                "Pertama kali nyobain langsung jatuh cinta! Santannya gurih
+                banget, cendolnya kenyal. Sekarang jadi langganan buat buka
+                puasa bareng orang tersayang. Recomended!"
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">A</div>
+              <div class="author-info">
+                <h4 class="author-name">Adzra Fadila</h4>
+                <p class="author-location">Mahasiswa ITB</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimoni 3 -->
+          <div class="testimonial" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-content">
+              <p class="testimonial-text">
+                "Dari sekian banyak cendol di Bandung, NyendolYuk! ini yang
+                paling authentic rasanya. Gula merahnya berasa banget, nggak
+                kayak yang lain yang cuma manis aja. Top!"
+              </p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-avatar">H</div>
+              <div class="author-info">
+                <h4 class="author-name">Hafiz Johny</h4>
+                <p class="author-location">Food Blogger</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🔥 MODAL FORM PEMESANAN -->
+    <div id="orderModal" class="modal-overlay">
+      <div class="modal-container">
+        <div class="modal-header">
+          <h3 class="modal-title">Konfirmasi Pesanan</h3>
+          <button class="modal-close" id="modalClose">&times;</button>
+        </div>
+
+        <div class="modal-body">
+          <!-- Selected Item Info -->
+          <div class="selected-item">
+            <img
+              id="modalItemImage"
+              src=""
+              alt="Product"
+              class="modal-item-image"
+            />
+
+            <div class="modal-item-info">
+              <h4 id="modalItemName">Nama Produk</h4>
+
+              <!-- Unit Price dengan Quantity Indicator -->
+              <div class="price-display">
+                <span id="modalItemPrice" class="modal-item-price"
+                  >Rp 8.000</span
+                >
+                <span
+                  id="quantityIndicator"
+                  class="quantity-indicator"
+                  style="display: none"
+                  >× <span id="qtyValue">1</span></span
+                >
+              </div>
+
+              <!-- Total Price (Lebih Prominent) -->
+              <div class="total-display">
+                <span class="total-label">Total:</span>
+                <span id="selectedItemTotal" class="selected-item-total-value"
+                  >Rp 8.000</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Order Form -->
+          <form id="orderForm" class="order-form">
+            <div class="form-group">
+              <label for="itemQuantity">Jumlah Porsi *</label>
+              <div class="quantity-selector">
+                <button type="button" class="qty-btn qty-minus" id="qtyMinus">
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/128/43/43625.png"
+                    alt="Kurang"
+                  />
+                </button>
+                <input
+                  type="number"
+                  id="itemQuantity"
+                  name="itemQuantity"
+                  value="1"
+                  min="1"
+                  max="20"
+                  required
+                />
+                <button type="button" class="qty-btn qty-plus" id="qtyPlus">
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/128/1828/1828925.png"
+                    alt="Tambah"
+                  />
+                </button>
+              </div>
+              <span class="quantity-hint">Maksimal 20 porsi per pesanan</span>
+            </div>
+
+            <div class="form-group">
+              <label for="customerName">Nama Lengkap *</label>
+              <input
+                type="text"
+                id="customerName"
+                name="customerName"
+                required
+                placeholder="Masukkan nama Anda"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="customerPhone">Nomor WhatsApp *</label>
+              <input
+                type="tel"
+                id="customerPhone"
+                name="customerPhone"
+                required
+                placeholder="081234567890"
+                pattern="[0-9]{10,13}"
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Metode Pengiriman *</label>
+              <div class="radio-group">
+                <label class="radio-option">
+                  <input
+                    type="radio"
+                    name="deliveryMethod"
+                    value="ambil"
+                    checked
+                  />
+                  <span class="radio-custom"></span>
+                  <span class="radio-label">Ambil di Toko</span>
+                </label>
+                <label class="radio-option">
+                  <input type="radio" name="deliveryMethod" value="diantar" />
+                  <span class="radio-custom"></span>
+                  <span class="radio-label">Diantar</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group" id="addressGroup" style="display: none">
+              <label for="customerAddress">Alamat Pengiriman *</label>
+              <textarea
+                id="customerAddress"
+                name="customerAddress"
+                rows="3"
+                placeholder="Masukkan alamat lengkap"
+              ></textarea>
+            </div>
+
+            <div class="form-group">
+              <label>Metode Pembayaran *</label>
+              <div class="radio-group">
+                <label class="radio-option">
+                  <input
+                    type="radio"
+                    name="paymentMethod"
+                    value="cash"
+                    checked
+                  />
+                  <span class="radio-custom"></span>
+                  <span class="radio-label">Cash</span>
+                </label>
+                <label class="radio-option">
+                  <input type="radio" name="paymentMethod" value="transfer" />
+                  <span class="radio-custom"></span>
+                  <span class="radio-label">
+                    Transfer QRIS
+                    <img
+                      src="https://cdn-icons-png.flaticon.com/128/107/107072.png"
+                      alt="QRIS"
+                      class="qris-badge"
+                      title="Termasuk QRIS"
+                    />
+                  </span>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="orderNotes">Catatan Pesanan (Opsional)</label>
+              <textarea
+                id="orderNotes"
+                name="orderNotes"
+                rows="2"
+                placeholder="Contoh: Tanpa es, gula kurang, dll"
+              ></textarea>
+            </div>
+          </form>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn-modal-secondary" id="modalCancel">
+            Batal
+          </button>
+          <button type="submit" form="orderForm" class="btn-modal-primary">
+            <img
+              src="https://cdn-icons-png.flaticon.com/128/4423/4423697.png"
+              alt="WA"
+              class="btn-icon"
+            />
+            Beli Sekarang
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-about">
+            <h3 class="footer-title">NyendolYuk!</h3>
+            <p class="footer-text">
+              Segarnya cendol buatan tangan, resep turun-temurun.
+            </p>
+          </div>
+          <div class="footer-contact">
+            <h4 class="footer-subtitle">Kontak</h4>
+            <div class="contact-item">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/15047/15047587.png"
+                alt="Email"
+                class="contact-icon"
+              />
+              <span class="contact-text">nurariefardi11@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/2875/2875433.png"
+                alt="Alamat"
+                class="contact-icon"
+              />
+              <span class="contact-text"
+                >Alamat: Way Halim, Bandar Lampung</span
+              >
+            </div>
+          </div>
+          <div class="footer-social">
+            <h4 class="footer-subtitle">Ikuti Kami</h4>
+            <div class="social-links">
+              <!-- Instagram Icon -->
+              <a href="#" class="social-link" target="_blank">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/15713/15713420.png"
+                  alt="Instagram"
+                  class="social-icon"
+                />
+              </a>
+              <!-- Tiktok Icon -->
+              <a href="#" class="social-link" target="_blank">
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/4782/4782345.png"
+                  alt="Tiktok"
+                  class="social-icon"
+                />
+              </a>
+              <!-- WhatsApp Icon (Bonus) -->
+              <a
+                href="https://wa.me/6281366616094"
+                class="social-link"
+                target="_blank"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/128/5968/5968841.png"
+                  alt="WhatsApp"
+                  class="social-icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-copyright">
+            &copy; 2026 NyendolYuk!. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- <script>
+      // Toggle Hamburger Menu
+      const navToggle = document.getElementById("navToggle");
+      const navMenu = document.getElementById("navMenu");
+
+      navToggle.addEventListener("click", () => {
+        navToggle.classList.toggle("active");
+        navMenu.classList.toggle("active");
+      });
+
+      // Close menu when clicking a link
+      const navLinks = document.querySelectorAll(".nav-link");
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          navToggle.classList.remove("active");
+          navMenu.classList.remove("active");
+        });
+      });
+
+      // Close menu when clicking outside
+      window.addEventListener("click", (e) => {
+        if (
+          navMenu.classList.contains("active") &&
+          !navToggle.contains(e.target) &&
+          !navMenu.contains(e.target)
+        ) {
+          navToggle.classList.remove("active");
+          navMenu.classList.remove("active");
+        }
+      });
+    </script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+        once: true,
+      });
+    </script>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
