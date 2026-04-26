@@ -229,7 +229,7 @@ body {
 
 /* Hero Section - Foto Background */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), 
+    background: linear-gradient(rgba(55, 38, 28, 0.6), rgba(85, 58, 40, 0.7)), 
                 url('header.jpg') center/cover no-repeat;
     color: white;
     padding: 120px 0;
